@@ -1,20 +1,15 @@
 import { useEffect } from 'react';
 import './App.css';
+import OneSignal from 'react-onesignal';
 
 
 function App() {
-  window.OneSignal = window.OneSignal || [];
-  const OneSignal = window.OneSignal;
 
   useEffect(() => {
-    OneSignal.push(() => {
-      OneSignal.init(
-        {
-          appId: "68782627-f22d-45b7-b1eb-44b826777b50"
-        }
-      )
+    OneSignal.init({
+      appId: "68782627-f22d-45b7-b1eb-44b826777b50"
     });
-  }, [OneSignal]);
+  }, []);
 
   const onHandleTag = (tag) => {
     console.log('Tagging');
