@@ -23,8 +23,8 @@ function App() {
   return (
     <div className="App">
         <button className="btn btn--react" onClick={()=>onHandleTag('react')}>ReactJS</button>
-        <button className="btn btn--angular" onClick={()=>onHandleTag('angular')}>angular</button>
-        <button className="btn btn--vue" onClick={()=>onHandleTag('vue')}>vue</button>
+        <button className="btn btn--angular" onClick={()=>onHandleTag('angular')}>Angular</button>
+        <button className="btn btn--vue" onClick={()=>onHandleTag('vue')}>Vue</button>
     </div>
   );
 }
