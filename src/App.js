@@ -16,9 +16,15 @@ function App() {
     });
   }, [OneSignal]);
 
+  const onHandleTag = (tag) => {
+    OneSignal.sendTag("tech", tag); 
+  }
+
   return (
     <div className="App">
-      
+        <button className="btn btn--react" onClick={()=>onHandleTag('react')}>ReactJS</button>
+        <button className="btn btn--angular" onClick={()=>onHandleTag('angular')}>angular</button>
+        <button className="btn btn--vue" onClick={()=>onHandleTag('vue')}>vue</button>
     </div>
   );
 }
