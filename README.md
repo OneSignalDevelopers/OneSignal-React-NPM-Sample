@@ -1,4 +1,4 @@
-# Push Notifications in React with OneSigna
+# Push Notifications In React With OneSignal
 
 It’s no secret that push notifications can help you engage and retain app users. In this tutorial, we'll show you how to integrate with the React-OneSignal NPM package to leverage push notifications in your React app.
 
