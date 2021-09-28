@@ -3,7 +3,7 @@
 It’s no secret that push notifications can help you engage and retain app users. In this tutorial, we'll show you how to integrate with the React-OneSignal NPM package to leverage push notifications in your React app.
 
 ## Install OneSignal NPM package
-Inside of your project folder, open your terminal and run the following command to install the React OneSignal NPM package.
+Inside of your project folder, open your terminal and run the following command to install the [React OneSignal NPM package](https://www.npmjs.com/package/react-onesignal).
 ```shell
 npm i react-onesignal
 ```
