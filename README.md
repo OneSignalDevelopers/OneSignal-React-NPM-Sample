@@ -14,7 +14,8 @@ import OneSignal from 'react-onesignal';
 
 The code above will make the OneSignal object accessible and will allow you to have access to the OneSignal SDK properties.
 In the same file, we will create a `useEffect` hook. This hook will have the initialization code needed to trigger OneSignal. Remember to add the dependency array `[]`  to your `useEffect` hook. The init() method from OneSignal can only be called once and the dependency array will help us to avoid that the `useEffect` gets triggered multiple times firing the `init()` method.
-```
+
+```javascript
 useEffect(() => {
    OneSignal.init({
      appId: "YOUR-APP-ID-HERE"
